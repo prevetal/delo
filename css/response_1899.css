@@ -1,0 +1,358 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .cont.row
+    {
+        padding-right: 40px;
+    }
+
+
+    header .cont + .cont
+    {
+        margin-top: 10px;
+    }
+
+
+
+    header .logo .desc
+    {
+        right: 24px;
+    }
+
+
+    header.absolute .logo:before
+    {
+        position: absolute;
+        top: 0;
+        left: 100%;
+
+        display: block;
+
+        width: 20px;
+        height: 20px;
+
+        content: '';
+        pointer-events: none;
+
+        border-radius: 50%;
+        box-shadow: -10px -10px 0 0 var(--bg);
+    }
+
+
+    header.absolute .logo:after
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        display: block;
+
+        width: 20px;
+        height: 20px;
+
+        content: '';
+        pointer-events: none;
+
+        border-radius: 50%;
+        box-shadow: -10px -10px 0 0 var(--bg);
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        height: auto;
+        padding: 200px 0 40px;
+    }
+
+
+    .first_section:before,
+    .first_section .bg,
+    .first_section video
+    {
+        -webkit-mask: none;
+                mask: none;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .accordion
+    {
+        width: 440px;
+    }
+
+
+    .about_us .history
+    {
+        width: calc(100% - 500px);
+    }
+
+
+    .about_us .history .item .image
+    {
+        width: 440px;
+        min-height: 588px;
+    }
+
+
+    .about_us .history .item .info
+    {
+        width: calc(100% - 488px);
+    }
+
+
+    .about_us .history .controls
+    {
+        left: 488px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .item,
+    .stats .link
+    {
+        height: 306px;
+        padding: 60px;
+    }
+
+
+
+    /*----------
+        Boss
+    ----------*/
+    .boss .images
+    {
+        width: 360px;
+    }
+
+
+    .boss .data
+    {
+        width: calc(100% - 384px);
+        padding: 60px;
+    }
+
+
+    .boss .person .exp
+    {
+        right: 120px;
+        bottom: 152px;
+
+        gap: 6px;
+    }
+
+
+    .boss .person .name
+    {
+        font-size: 16px;
+    }
+
+    .boss .person .post
+    {
+        font-size: 12px;
+    }
+
+
+    .boss .info
+    {
+        width: 440px;
+    }
+
+
+    .boss .quote
+    {
+        font-size: 22px;
+    }
+
+
+    .boss .text_block br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .services_head
+    {
+        position: relative;
+
+        height: auto;
+        padding: 200px 0 40px;
+    }
+
+
+    .services_head:before,
+    .services_head .bg
+    {
+        -webkit-mask: none;
+                mask: none;
+    }
+
+
+    .services_head .advantages
+    {
+        margin-top: 120px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: calc(100% - 464px);
+    }
+
+
+    .contacts_info .data:before
+    {
+        -webkit-mask: none;
+                mask: none;
+    }
+
+
+    .contacts_info .callback
+    {
+        box-shadow: 0 0 0 10px var(--bg);
+    }
+
+
+    .contacts_info .callback:before
+    {
+        position: absolute;
+        top: 0;
+        right: 100%;
+
+        display: block;
+
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+
+        content: '';
+        pointer-events: none;
+
+        border-radius: 50%;
+        box-shadow: 10px -10px 0 0 var(--bg);
+    }
+
+
+    .contacts_info .callback:after
+    {
+        position: absolute;
+        top: 100%;
+        right: 0;
+
+        display: block;
+
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+
+        content: '';
+        pointer-events: none;
+
+        border-radius: 50%;
+        box-shadow: 10px -10px 0 0 var(--bg);
+    }
+
+
+    .contacts_info .socials
+    {
+        right: 30px;
+        bottom: 30px;
+
+        max-width: calc(100% - 30px);
+    }
+
+
+    .contacts_info .map
+    {
+        width: 500px;
+        min-height: 680px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .thumbs
+    {
+        top: 68px;
+    }
+
+
+
+    /*------------
+        clients
+    ------------*/
+    .clients .swiper-slide
+    {
+        visibility: visible;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .socials .row > *
+    {
+        width: 300px;
+    }
+
+
+    footer .socials .avito_link
+    {
+        width: calc(100% - 980px);
+    }
+
+
+
+    footer .callback
+    {
+        width: 360px;
+    }
+
+
+
+    footer .data
+    {
+        width: calc(100% - 440px);
+    }
+
+
+
+    footer .contacts,
+    footer .creator
+    {
+        width: 308px;
+    }
+}

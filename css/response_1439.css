@@ -1,0 +1,1062 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 324px;
+        --font_size: 15px;
+        --font_size_title_small: 36px;
+        --font_size_title: 48px;
+        --font_size_title_big: 60px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 100px;
+    }
+
+    .block.smallest_m
+    {
+        margin-bottom: 60px;
+    }
+
+    .block.small_m
+    {
+        margin-bottom: 80px;
+    }
+
+    .block.big_m
+    {
+        margin-bottom: 120px;
+    }
+
+    .block.biggest_m
+    {
+        margin-bottom: 140px;
+    }
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 40px);
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 24px 0 24px 30px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 10px 0 40px;
+    }
+
+
+    header .cont.row
+    {
+        padding-right: 24px;
+        padding-left: 0;
+    }
+
+
+    header .logo
+    {
+        width: 178px;
+        height: 80px;
+    }
+
+
+    header .logo img
+    {
+        width: 130px;
+    }
+
+
+    header .logo .desc
+    {
+        font-size: 12px;
+        line-height: 125%;
+
+        right: 0;
+        left: 24px;
+
+        margin-top: 12px;
+    }
+
+
+    header .menu
+    {
+        margin-left: 48px;
+        padding: 8px;
+
+        gap: 8px;
+    }
+
+
+    header .sub_menu
+    {
+        width: 280px;
+        padding: 24px;
+
+        gap: 12px;
+    }
+
+
+    header .phone a
+    {
+        height: 52px;
+    }
+
+
+    header .messengers a
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    header.absolute .logo:after
+    {
+        margin-left: 10px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+
+        gap: 24px;
+    }
+
+    .block_head.big_m
+    {
+        margin-bottom: 48px;
+    }
+
+    .block_head.biggest_m
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .block_head .pre_title
+    {
+        font-size: 24px;
+    }
+
+    .block_head .pre_title.small
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 52px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h1
+    {
+        margin-bottom: 40px !important;
+    }
+
+    .text_block h2
+    {
+        margin-bottom: 24px !important;
+    }
+
+    .text_block h3
+    {
+        font-size: 22px;
+        line-height: calc(100% + 10px);
+
+        margin-bottom: 24px !important;
+    }
+
+
+    .text_block * + h2
+    {
+        margin-top: 60px;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        font-size: 22px;
+        line-height: calc(100% + 10px);
+
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 40px 52px;
+    }
+
+
+    .text_block blockquote:after,
+    .text_block q:before
+    {
+        height: calc(100% - 80px);
+    }
+
+
+    .text_block ul,
+    .text_block ol
+    {
+        gap: 16px;
+    }
+
+
+    .text_block table th
+    {
+        padding: 0 14px 14px;
+    }
+
+
+    .text_block table td
+    {
+        padding: 14px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 200px 0 24px;
+    }
+
+
+    .first_section .cont
+    {
+        padding: 0 34px;
+
+        gap: 40px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 64px;
+
+        width: 660px;
+    }
+
+
+    .first_section .links
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .links > *
+    {
+        width: 490px;
+    }
+
+
+    .first_section .btns .btn
+    {
+        font-size: 16px;
+
+        width: 240px;
+        height: 80px;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .accordion
+    {
+        width: 360px;
+    }
+
+
+    .about_us .history
+    {
+        width: calc(100% - 408px);
+    }
+
+
+    .about_us .history .item .image
+    {
+        width: 388px;
+        min-height: 520px;
+    }
+
+
+    .about_us .history .item .info
+    {
+        width: calc(100% - 428px);
+        padding-top: 24px;
+
+        gap: 24px;
+    }
+
+
+    .about_us .history .item .title
+    {
+        font-size: 28px;
+    }
+
+
+    .about_us .history .controls
+    {
+        left: 428px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row > * + *
+    {
+        margin-left: -32px;
+    }
+
+
+    .stats .item,
+    .stats .link
+    {
+        height: 272px;
+        padding: 48px;
+    }
+
+
+    .stats .item .val
+    {
+        font-size: 42px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .stats .link
+    {
+        font-size: 18px;
+    }
+
+
+    .stats .link .btn
+    {
+        width: 52px;
+        height: 52px;
+        margin-top: 16px;
+    }
+
+
+
+    /*----------
+        Boss
+    ----------*/
+    .boss .images
+    {
+        width: 320px;
+    }
+
+
+    .boss .data
+    {
+        width: calc(100% - 344px);
+        padding: 48px;
+    }
+
+
+    .boss .person .exp
+    {
+        right: 100px;
+        bottom: 144px;
+    }
+
+
+    .boss .info
+    {
+        width: 400px;
+    }
+
+
+    .boss .quote
+    {
+        font-size: 20px;
+    }
+
+
+    .boss .btn
+    {
+        height: 72px;
+        margin-top: 8px;
+        padding: 10px 24px;
+    }
+
+
+
+    /*-------------------------
+        Reliable profitable
+    -------------------------*/
+    .reliable_profitable .block_head
+    {
+        width: calc(50% - 40px);
+    }
+
+
+    .reliable_profitable .data
+    {
+        width: calc(50% - 40px);
+    }
+
+
+    .reliable_profitable .item
+    {
+        padding: 24px 0;
+    }
+
+
+    .reliable_profitable .item .rating
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------
+        Callback
+    --------------*/
+    .callback
+    {
+        min-height: 400px;
+        padding: 32px;
+
+        gap: 24px;
+    }
+
+
+    .callback .title
+    {
+        font-size: 32px;
+    }
+
+
+    .callback .form .line
+    {
+        width: calc(100% - 72px);
+    }
+
+
+    .callback .form .submit
+    {
+        width: 52px;
+    }
+
+
+    .callback .form .submit_btn
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .callback .btn
+    {
+        width: 52px;
+        height: 52px;
+        margin-top: auto;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .services_head
+    {
+        padding: 200px 0 24px;
+    }
+
+
+    .services_head .cont
+    {
+        padding: 0 34px;
+    }
+
+
+    .services_head .title
+    {
+        width: 660px;
+    }
+
+
+    .services_head .advantages
+    {
+        margin-top: 100px;
+    }
+
+
+    .services_head .advantages .item
+    {
+        min-height: 280px;
+        padding: 32px;
+
+        gap: 32px;
+    }
+
+
+    .services_head .advantages .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service .head
+    {
+        padding: 40px 0;
+
+        gap: 32px;
+    }
+
+
+    .services .service .head .name
+    {
+        font-size: 32px;
+    }
+
+
+    .services .service .head .spoler_btn
+    {
+        width: 160px;
+        min-width: 160px;
+        height: 48px;
+    }
+
+
+    .services .service .pluses .row
+    {
+        margin-left: -20px;
+    }
+
+
+    .services .service .pluses .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .services .service .pluses .item
+    {
+        min-height: 340px;
+        padding: 32px;
+    }
+
+
+    .services .service .pluses .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: calc(100% - 464px);
+        padding: 60px 24px;
+    }
+
+
+    .contacts_info .data:before
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .data > .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .contacts_info .phone
+    {
+        font-size: 42px;
+    }
+
+
+    .contacts_info .email,
+    .contacts_info .location,
+    .contacts_info .work_time
+    {
+        margin-top: 28px;
+
+        gap: 16px;
+    }
+
+
+    .contacts_info .email .val,
+    .contacts_info .location .val
+    {
+        font-size: 22px;
+    }
+
+
+    .contacts_info .work_time .val
+    {
+        font-size: 16px;
+
+        gap: 8px;
+    }
+
+
+    .contacts_info .socials
+    {
+        right: 24px;
+        bottom: 24px;
+
+        max-width: calc(100% - 24px);
+    }
+
+
+    .contacts_info .socials .link
+    {
+        font-size: 16px;
+
+        min-height: 80px;
+        padding: 18px 24px 18px 20px;
+    }
+
+
+    .contacts_info .socials .link .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .contacts_info .socials .link .icon svg
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .contacts_info .socials .link span
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .contacts_info .callback .title
+    {
+        font-size: 28px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: 440px;
+        min-height: 640px;
+        margin-right: 0;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .start .year
+    {
+        height: 400px;
+    }
+
+
+    .about_info .start .year img
+    {
+        width: 720px;
+    }
+
+
+
+    .about_info .start .tops .row
+    {
+        gap: 64px;
+    }
+
+
+    .about_info .start .tops .row > *
+    {
+        width: 360px;
+        max-width: calc(50% - 32px);
+    }
+
+
+    .about_info .start .tops .name
+    {
+        font-size: 90px;
+    }
+
+
+    .about_info .start .tops .desc
+    {
+        font-size: 20px;
+    }
+
+
+
+    .about_info .start .quote
+    {
+        font-size: 24px;
+
+        margin-top: 60px;
+        padding-top: 60px;
+        padding-left: 220px;
+    }
+
+
+    .about_info .start .quote:before
+    {
+        top: 60px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .thumbs
+    {
+        top: 68px;
+        right: 44px;
+
+        width: 320px;
+        margin-right: 0;
+        padding: 5px 5px 15px;
+    }
+
+
+    .photo_gallery .thumbs .image
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .photo_gallery .thumbs .name
+    {
+        font-size: 32px;
+    }
+
+
+    .photo_gallery .thumbs .swiper-button-next,
+    .photo_gallery .thumbs .swiper-button-prev
+    {
+        height: 41px;
+        height: 41px;
+    }
+
+
+    .photo_gallery .thumbs .swiper-button-prev
+    {
+        left: 8px;
+    }
+
+    .photo_gallery .thumbs .swiper-button-next
+    {
+        right: 8px;
+    }
+
+
+
+    /*----------
+        Ours
+    ----------*/
+    .ours .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .ours .mission
+    {
+        width: calc(50% - 40px);
+    }
+
+
+    .ours .mission .text
+    {
+        font-size: 22px;
+
+        gap: 24px;
+    }
+
+
+    .ours .mission .text span
+    {
+        width: calc(100% - 84px);
+    }
+
+
+    .ours .values .items > * + *
+    {
+        margin-top: 24px;
+        padding-top: 24px;
+    }
+
+
+    .ours .values .items .name
+    {
+        font-size: 22px;
+
+        width: 148px;
+    }
+
+
+    .ours .values .items .desc
+    {
+        width: calc(100% - 164px);
+    }
+
+
+    .ours .img
+    {
+        left: 48px;
+
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Tour 3D
+    -------------*/
+    .tour_3D .data .exp
+    {
+        font-size: 20px;
+
+        width: 208px;
+        height: 208px;
+
+        gap: 16px;
+    }
+
+
+    .tour_3D .data .exp .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .tour_3D .data .exp .icon svg
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 48px;
+    }
+
+
+    footer .socials .link
+    {
+        font-size: 20px;
+
+        width: 260px;
+        min-height: 120px;
+        padding: 32px;
+    }
+
+
+    footer .socials .link .icon
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+    footer .socials .link .icon svg
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    footer .socials .avito_link
+    {
+        font-size: 18px;
+
+        width: calc(100% - 860px);
+        min-height: 120px;
+        padding: 32px;
+    }
+
+
+    footer .socials .avito_link .arrow
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    footer .callback
+    {
+        width: 324px;
+    }
+
+
+
+    footer .data
+    {
+        width: calc(100% - 372px);
+        padding-top: 32px;
+    }
+
+
+
+    footer .contacts,
+    footer .creator
+    {
+        width: 280px;
+    }
+
+
+    footer .menu .items,
+    footer .contacts .phone
+    {
+        font-size: 32px;
+    }
+
+
+    footer .menu,
+    footer .copyright
+    {
+        width: 180px;
+    }
+
+
+    footer .links,
+    footer .privacy_policy_link
+    {
+        width: 228px;
+    }
+
+
+    footer .links .items
+    {
+        gap: 16px;
+    }
+
+
+    footer .contacts .location
+    {
+        margin-top: 4px;
+
+        gap: 16px;
+    }
+
+
+    footer .contacts .work_time
+    {
+        margin-top: 12px;
+
+        gap: 16px;
+    }
+
+
+    footer .contacts .work_time .val
+    {
+        gap: 8px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 420px;
+        padding: 48px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 32px;
+    }
+}

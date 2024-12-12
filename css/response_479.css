@@ -1,0 +1,244 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        min-height: 809px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 44px;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .history .controls
+    {
+        left: 241px;
+
+        gap: 10px;
+    }
+
+
+    .about_us .history .swiper-button-next,
+    .about_us .history .swiper-button-prev,
+    .about_us .history .swiper-button-next .icon,
+    .about_us .history .swiper-button-prev .icon
+    {
+        width: 20px;
+        height: 11px;
+    }
+
+
+
+    /*-------------------------
+        Reliable profitable
+    -------------------------*/
+    .reliable_profitable .block_head .title
+    {
+        font-size: var(--font_size_title_small);
+    }
+
+
+    .reliable_profitable .item
+    {
+        gap: 8px;
+    }
+
+
+
+    /*--------------
+        Callback
+    --------------*/
+    .callback .title
+    {
+        font-size: 24px;
+        line-height: 125%;
+    }
+
+
+    .callback .desc
+    {
+        line-height: 155%;
+    }
+
+
+    .callback .form .line
+    {
+        width: calc(100% - 55px);
+    }
+
+
+    .callback .form .submit
+    {
+        width: 44px;
+    }
+
+
+    .callback .form .submit_btn
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    .callback .form .submit_btn .icon
+    {
+        width: 15px;
+        height: 11px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 40px 15px 15px;
+    }
+
+
+    .contacts_info .label
+    {
+        font-size: 12px;
+    }
+
+
+    .contacts_info .callback
+    {
+        height: 248px;
+        min-height: 248px;
+        padding: 32px 15px;
+
+        gap: 16px;
+    }
+
+
+    .contacts_info .map
+    {
+        margin-top: 288px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .start .block_head .title.small
+    {
+        font-size: 24px;
+    }
+
+
+    .about_info .start .year
+    {
+        height: 148px;
+    }
+
+
+    .about_info .start .year img
+    {
+        width: 400px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .block_head .title
+    {
+        font-size: var(--font_size_title_small);
+    }
+
+
+    .photo_gallery .thumbs .name
+    {
+        font-size: 22px;
+    }
+
+
+    .photo_gallery .thumbs .swiper-button-next,
+    .photo_gallery .thumbs .swiper-button-prev
+    {
+        height: 28px;
+        height: 28px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .socials .avito_link
+    {
+        font-size: 14px;
+
+        padding: 18px 20px;
+    }
+
+
+    footer .socials .avito_link .logo img
+    {
+        width: 71px;
+    }
+
+
+    footer .socials .avito_link .arrow
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    footer .socials .avito_link .arrow svg
+    {
+        width: 15px;
+        height: 11px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 340px;
+        padding: 32px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 24px;
+    }
+}

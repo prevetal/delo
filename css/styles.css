@@ -455,7 +455,7 @@ header .cont
 }
 
 
-header .cont.row
+header .cont
 {
     align-content: center;
     align-items: center;
@@ -826,6 +826,44 @@ header.absolute .logo .desc
 }
 
 
+header.absolute .logo:before
+{
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+
+    content: '';
+    pointer-events: none;
+
+    border-radius: 50%;
+    box-shadow: -10px -10px 0 0 var(--bg);
+}
+
+
+header.absolute .logo:after
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+
+    content: '';
+    pointer-events: none;
+
+    border-radius: 50%;
+    box-shadow: -10px -10px 0 0 var(--bg);
+}
+
+
 header.absolute .menu,
 header.absolute .menu_item:hover a,
 header.absolute .menu_item a.active,
@@ -1075,6 +1113,8 @@ aside
 .breadcrumbs
 {
     font-size: 12px;
+
+    padding-left: 302px;
 
     transition: .2s linear;
 
@@ -1632,9 +1672,6 @@ aside
 
     border-radius: 10px;
     background: rgba(0, 0, 0, .50);
-
-    -webkit-mask: url('../images/mask_services_head.svg') 0 0 / 100% 100% no-repeat;
-            mask: url('../images/mask_services_head.svg') 0 0 / 100% 100% no-repeat;
 }
 
 
@@ -1658,8 +1695,6 @@ aside
     border-radius: 10px;
 
     object-fit: cover;
-    -webkit-mask: url('../images/mask_services_head.svg') 0 0 / 100% 100% no-repeat;
-            mask: url('../images/mask_services_head.svg') 0 0 / 100% 100% no-repeat;
 }
 
 
@@ -2514,9 +2549,6 @@ aside
 
     border-radius: 10px;
     background: rgba(0, 0, 0, .50);
-
-    -webkit-mask: url('../images/mask_services_head.svg') 0 0 / 100% 100% no-repeat;
-            mask: url('../images/mask_services_head.svg') 0 0 / 100% 100% no-repeat;
 }
 
 
@@ -2539,8 +2571,6 @@ aside
     border-radius: 10px;
 
     object-fit: cover;
-    -webkit-mask: url('../images/mask_services_head.svg') 0 0 / 100% 100% no-repeat;
-            mask: url('../images/mask_services_head.svg') 0 0 / 100% 100% no-repeat;
 }
 
 
@@ -3088,9 +3118,6 @@ aside .callback .title
 
     border-radius: 10px;
     background: linear-gradient(180deg, #939290 0%, #cac9c7 100%);
-
-    -webkit-mask: url('../images/mask_bg_contacts.svg') 100% 0 / 100% 100% no-repeat;
-            mask: url('../images/mask_bg_contacts.svg') 100% 0 / 100% 100% no-repeat;
 }
 
 
@@ -3304,7 +3331,49 @@ aside .callback .title
     min-height: 280px;
     padding: 30px;
 
+    box-shadow: 0 0 0 10px var(--bg);
+
     gap: 20px;
+}
+
+
+.contacts_info .callback:before
+{
+    position: absolute;
+    top: 0;
+    right: 100%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+    content: '';
+    pointer-events: none;
+
+    border-radius: 50%;
+    box-shadow: 10px -10px 0 0 var(--bg);
+}
+
+
+.contacts_info .callback:after
+{
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+
+    content: '';
+    pointer-events: none;
+
+    border-radius: 50%;
+    box-shadow: 10px -10px 0 0 var(--bg);
 }
 
 
@@ -3327,7 +3396,7 @@ aside .callback .title
 
     overflow: hidden;
 
-    width: 680px;
+    width: calc(380px + (100vw - 1328px) / 2);
     max-width: 100%;
     min-height: 740px;
     margin-right: calc((100vw - 1328px) / -2);

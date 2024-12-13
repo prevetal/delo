@@ -273,6 +273,12 @@
     /*-----------------
         Breadcrumbs
     -----------------*/
+    .breadcrumbs
+    {
+        padding-left: 0;
+    }
+
+
     .lock .breadcrumbs
     {
         pointer-events: none;

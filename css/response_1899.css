@@ -22,48 +22,9 @@
     }
 
 
-
     header .logo .desc
     {
         right: 24px;
-    }
-
-
-    header.absolute .logo:before
-    {
-        position: absolute;
-        top: 0;
-        left: 100%;
-
-        display: block;
-
-        width: 20px;
-        height: 20px;
-
-        content: '';
-        pointer-events: none;
-
-        border-radius: 50%;
-        box-shadow: -10px -10px 0 0 var(--bg);
-    }
-
-
-    header.absolute .logo:after
-    {
-        position: absolute;
-        top: 100%;
-        left: 0;
-
-        display: block;
-
-        width: 20px;
-        height: 20px;
-
-        content: '';
-        pointer-events: none;
-
-        border-radius: 50%;
-        box-shadow: -10px -10px 0 0 var(--bg);
     }
 
 
@@ -75,15 +36,6 @@
     {
         height: auto;
         padding: 200px 0 40px;
-    }
-
-
-    .first_section:before,
-    .first_section .bg,
-    .first_section video
-    {
-        -webkit-mask: none;
-                mask: none;
     }
 
 
@@ -202,14 +154,6 @@
     }
 
 
-    .services_head:before,
-    .services_head .bg
-    {
-        -webkit-mask: none;
-                mask: none;
-    }
-
-
     .services_head .advantages
     {
         margin-top: 120px;
@@ -223,59 +167,6 @@
     .contacts_info .data
     {
         width: calc(100% - 464px);
-    }
-
-
-    .contacts_info .data:before
-    {
-        -webkit-mask: none;
-                mask: none;
-    }
-
-
-    .contacts_info .callback
-    {
-        box-shadow: 0 0 0 10px var(--bg);
-    }
-
-
-    .contacts_info .callback:before
-    {
-        position: absolute;
-        top: 0;
-        right: 100%;
-
-        display: block;
-
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-
-        content: '';
-        pointer-events: none;
-
-        border-radius: 50%;
-        box-shadow: 10px -10px 0 0 var(--bg);
-    }
-
-
-    .contacts_info .callback:after
-    {
-        position: absolute;
-        top: 100%;
-        right: 0;
-
-        display: block;
-
-        width: 20px;
-        height: 20px;
-        margin-top: 10px;
-
-        content: '';
-        pointer-events: none;
-
-        border-radius: 50%;
-        box-shadow: 10px -10px 0 0 var(--bg);
     }
 
 
